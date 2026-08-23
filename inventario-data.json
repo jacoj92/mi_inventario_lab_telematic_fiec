@@ -1,0 +1,13 @@
+{
+  "version": "SILA-WEB-1.0",
+  "estado": "bootstrap",
+  "fuente_oficial": "PostgreSQL",
+  "generado_por": "migracion_sila_web",
+  "generado_en": "2026-08-23T02:52:00-05:00",
+  "resumen": {},
+  "distribucion": [],
+  "categorias": [],
+  "bienes": [],
+  "alertas": [],
+  "detalle_unidades": []
+}
