@@ -6,29 +6,29 @@
   "laboratorio": "Laboratorio de Sistemas Telemáticos",
   "fuente_oficial": "PostgreSQL",
   "generado_por": "n8n",
-  "generado_en": "2026-08-23T08:52:05.777Z",
-  "ultima_actualizacion_inventario": "2026-08-23T08:52:05.660Z",
+  "generado_en": "2026-08-23T23:55:49.644Z",
+  "ultima_actualizacion_inventario": "2026-08-23T23:55:49.538Z",
   "alcance": "Inventario administrado por el proyecto del Laboratorio de Sistemas Telemáticos",
   "advertencia": "Dataset consultivo. Las operaciones transaccionales se realizan exclusivamente sobre PostgreSQL mediante los workflows autorizados.",
   "resumen": {
     "total_registrado": 73,
     "unidades_en_servicio": 71,
-    "disponibles": 53,
-    "prestados": 18,
+    "disponibles": 52,
+    "prestados": 19,
     "reservados": 0,
     "mantenimiento": 0,
     "perdidos": 0,
     "bajas": 2,
     "otros_no_disponibles": 0,
     "fuera_servicio": 2,
-    "porcentaje_disponibilidad": 74.65,
-    "porcentaje_prestado": 25.35,
+    "porcentaje_disponibilidad": 73.24,
+    "porcentaje_prestado": 26.76,
     "tipos_bien": 11,
     "categorias": 5
   },
   "distribucion": {
-    "disponibles": 53,
-    "prestados": 18,
+    "disponibles": 52,
+    "prestados": 19,
     "reservados": 0,
     "mantenimiento": 0,
     "fuera_servicio": 2
@@ -83,16 +83,16 @@
       "categoria": "Microcontroladores",
       "total_registrado": 30,
       "unidades_en_servicio": 28,
-      "disponibles": 12,
-      "prestados": 16,
+      "disponibles": 11,
+      "prestados": 17,
       "reservados": 0,
       "mantenimiento": 0,
       "perdidos": 0,
       "bajas": 2,
       "otros_no_disponibles": 0,
-      "porcentaje_disponibilidad": 42.86,
-      "porcentaje_prestado": 57.14,
-      "ultima_actualizacion": "2026-08-23T08:52:05.660Z"
+      "porcentaje_disponibilidad": 39.29,
+      "porcentaje_prestado": 60.71,
+      "ultima_actualizacion": "2026-08-23T23:55:49.538Z"
     },
     {
       "categoria": "Sensores",
@@ -190,16 +190,16 @@
       "categoria": "Microcontroladores",
       "bien": "Arduino UNO",
       "total_registrado": 7,
-      "disponibles": 5,
-      "prestados": 0,
+      "disponibles": 4,
+      "prestados": 1,
       "reservados": 0,
       "mantenimiento": 0,
       "perdidos": 0,
       "bajas": 2,
       "otros_no_disponibles": 0,
-      "porcentaje_disponibilidad": 100,
-      "porcentaje_prestado": 0,
-      "ultima_actualizacion": "2026-08-23T08:52:05.660Z"
+      "porcentaje_disponibilidad": 80,
+      "porcentaje_prestado": 20,
+      "ultima_actualizacion": "2026-08-23T23:55:49.538Z"
     },
     {
       "categoria": "Microcontroladores",
@@ -305,14 +305,14 @@
       "mensaje": "Unidades fuera de servicio: Arduino UNO registra 2 baja(s) y 0 pérdida(s).",
       "total_registrado": 7,
       "unidades_en_servicio": 5,
-      "disponibles": 5,
-      "prestados": 0,
+      "disponibles": 4,
+      "prestados": 1,
       "mantenimiento": 0,
       "perdidos": 0,
       "bajas": 2,
-      "porcentaje_disponibilidad": 100,
+      "porcentaje_disponibilidad": 80,
       "color_dashboard": "amarillo",
-      "ultima_actualizacion": "2026-08-23T08:52:05.660Z"
+      "ultima_actualizacion": "2026-08-23T23:55:49.538Z"
     }
   ],
   "detalle_unidades": [
@@ -2181,18 +2181,25 @@
       "id_categoria": 1,
       "numero_serie": null,
       "codigo_activo": "ARD-001",
-      "estado_unidad": "disponible",
+      "estado_unidad": "prestado",
       "fecha_ingreso": "2026-06-05",
-      "observaciones": "\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260713202131236. Evento: TRZ-1783994989195. Fecha: 2026-07-14 02:09:49\nUnidad liberada por validación de devolución. Código préstamo: PRE-20260713202131236. Evento: TRZ-1783997903802. Fecha: 2026-07-14 02:58:23\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260806223136203. Evento: TRZ-20260806224119840-657CBB89. Fecha: 06/08/2026 22:41:19 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260806223136203. Código devolución: DEV-20260806225301880-53DECB48. Evento: TRZ-20260806225513324-7606A817. Fecha: 06/08/2026 22:55:13 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260806230100921. Evento: TRZ-20260806230507264-AF8D0373. Fecha: 06/08/2026 23:05:07 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260806230100921. Código devolución: DEV-20260806230745818-8B4DF8E4. Evento: TRZ-20260806230835833-ECB6C06C. Fecha: 06/08/2026 23:08:35 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260806233953879. Evento: TRZ-20260806234137963-B3CB21DD. Fecha: 06/08/2026 23:41:38 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260806233953879. Código devolución: DEV-20260806234319648-A2C25E1C. Evento: TRZ-20260806234414090-03824D2F. Fecha: 06/08/2026 23:44:14 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260812204553299. Evento: TRZ-20260812210304695-535E90B7. Fecha: 12/08/2026 21:03:04 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260812204553299. Código devolución: DEV-20260812210625832-49947DDB. Evento: TRZ-20260812210706383-0189AA23. Fecha: 12/08/2026 21:07:06 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260812215026493. Evento: TRZ-20260812215147835-628840B4. Fecha: 12/08/2026 21:51:47 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260812215026493. Código devolución: DEV-20260812215320708-7EC20551. Evento: TRZ-20260812215357835-FC941F5B. Fecha: 12/08/2026 21:53:57 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260813154506306. Evento: TRZ-20260813154941672-CA4D4048. Fecha: 13/08/2026 15:49:41 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260813154506306. Código devolución: DEV-20260813155207133-17EAF202. Evento: TRZ-20260813155314350-DB6A5498. Fecha: 13/08/2026 15:53:14 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260814123859663. Evento: TRZ-20260814132532223-D15AB23F. Fecha: 14/08/2026 13:25:32 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260814123859663. Código devolución: DEV-20260814132625965-4128237E. Evento: TRZ-20260814132720777-EB13EBCE. Fecha: 14/08/2026 13:27:20 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260803152403525. Modo de asignación: identificacion_fisica. Evento: TRZ-20260817142744354-CC0CBF44. Fecha: 17/08/2026 14:27:44 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260803152403525. Código devolución: DEV-20260817153527741-856CA8A9. Evento: TRZ-20260817163344251-6934217E. Fecha: 17/08/2026 16:33:44 (hora de Ecuador)\nOperación INV-20260820-001. Motivo: prueba controlada RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-002. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-003. Motivo: prueba multunidad RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-004. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-005. Motivo: prueba multunidad RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-006. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-007. Motivo: prueba multunidad RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-008. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-009. Motivo: Prueba RC5-C3.4C: mantenimiento preparado por identificación física.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-010. Motivo: Prueba RC5-C3.4C: reparación satisfactoria.. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-013. Motivo: Prueba multunidad RC5-C3.4E: mantenimiento físico de dos unidades.. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-014. Motivo: Prueba multunidad RC5-C3.4E: finalización satisfactoria del mantenimiento de dos unidades.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-018. Motivo: Prueba controlada RC5-C3.4F-01 desde interfaz web del scanner.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-019. Motivo: Prueba controlada RC5-C3.4F-03: finalización de mantenimiento desde interfaz web del scanner.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-001. Motivo: prueba controlada F3C.3D-01 de actualización automática del dashboard. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-002. Motivo: restauración posterior a prueba controlada F3C.3D-01. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-003. Motivo: prueba controlada formato correcto de hora Ecuador. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-004. Motivo: restauración posterior a prueba controlada. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-005. Motivo: prueba controlada dashboard producción. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-006. Motivo: restauración posterior a prueba controlada. Responsable: Jandry Moreira (responsable).\nOperación INV-20260823-001. Motivo: prueba controlada inventario pagina web. Responsable: Jandry Moreira (responsable).\nOperación INV-20260823-002. Motivo: restauración posterior a prueba controlada. Responsable: Jandry Moreira (responsable).",
+      "observaciones": "\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260713202131236. Evento: TRZ-1783994989195. Fecha: 2026-07-14 02:09:49\nUnidad liberada por validación de devolución. Código préstamo: PRE-20260713202131236. Evento: TRZ-1783997903802. Fecha: 2026-07-14 02:58:23\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260806223136203. Evento: TRZ-20260806224119840-657CBB89. Fecha: 06/08/2026 22:41:19 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260806223136203. Código devolución: DEV-20260806225301880-53DECB48. Evento: TRZ-20260806225513324-7606A817. Fecha: 06/08/2026 22:55:13 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260806230100921. Evento: TRZ-20260806230507264-AF8D0373. Fecha: 06/08/2026 23:05:07 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260806230100921. Código devolución: DEV-20260806230745818-8B4DF8E4. Evento: TRZ-20260806230835833-ECB6C06C. Fecha: 06/08/2026 23:08:35 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260806233953879. Evento: TRZ-20260806234137963-B3CB21DD. Fecha: 06/08/2026 23:41:38 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260806233953879. Código devolución: DEV-20260806234319648-A2C25E1C. Evento: TRZ-20260806234414090-03824D2F. Fecha: 06/08/2026 23:44:14 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260812204553299. Evento: TRZ-20260812210304695-535E90B7. Fecha: 12/08/2026 21:03:04 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260812204553299. Código devolución: DEV-20260812210625832-49947DDB. Evento: TRZ-20260812210706383-0189AA23. Fecha: 12/08/2026 21:07:06 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260812215026493. Evento: TRZ-20260812215147835-628840B4. Fecha: 12/08/2026 21:51:47 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260812215026493. Código devolución: DEV-20260812215320708-7EC20551. Evento: TRZ-20260812215357835-FC941F5B. Fecha: 12/08/2026 21:53:57 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260813154506306. Evento: TRZ-20260813154941672-CA4D4048. Fecha: 13/08/2026 15:49:41 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260813154506306. Código devolución: DEV-20260813155207133-17EAF202. Evento: TRZ-20260813155314350-DB6A5498. Fecha: 13/08/2026 15:53:14 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260814123859663. Evento: TRZ-20260814132532223-D15AB23F. Fecha: 14/08/2026 13:25:32 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260814123859663. Código devolución: DEV-20260814132625965-4128237E. Evento: TRZ-20260814132720777-EB13EBCE. Fecha: 14/08/2026 13:27:20 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260803152403525. Modo de asignación: identificacion_fisica. Evento: TRZ-20260817142744354-CC0CBF44. Fecha: 17/08/2026 14:27:44 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260803152403525. Código devolución: DEV-20260817153527741-856CA8A9. Evento: TRZ-20260817163344251-6934217E. Fecha: 17/08/2026 16:33:44 (hora de Ecuador)\nOperación INV-20260820-001. Motivo: prueba controlada RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-002. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-003. Motivo: prueba multunidad RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-004. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-005. Motivo: prueba multunidad RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-006. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-007. Motivo: prueba multunidad RC5-C3.3B. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-008. Motivo: reparación satisfactoria. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-009. Motivo: Prueba RC5-C3.4C: mantenimiento preparado por identificación física.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-010. Motivo: Prueba RC5-C3.4C: reparación satisfactoria.. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-013. Motivo: Prueba multunidad RC5-C3.4E: mantenimiento físico de dos unidades.. Responsable: Jandry Moreira (responsable).\nOperación de lote INV-20260820-014. Motivo: Prueba multunidad RC5-C3.4E: finalización satisfactoria del mantenimiento de dos unidades.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-018. Motivo: Prueba controlada RC5-C3.4F-01 desde interfaz web del scanner.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260820-019. Motivo: Prueba controlada RC5-C3.4F-03: finalización de mantenimiento desde interfaz web del scanner.. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-001. Motivo: prueba controlada F3C.3D-01 de actualización automática del dashboard. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-002. Motivo: restauración posterior a prueba controlada F3C.3D-01. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-003. Motivo: prueba controlada formato correcto de hora Ecuador. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-004. Motivo: restauración posterior a prueba controlada. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-005. Motivo: prueba controlada dashboard producción. Responsable: Jandry Moreira (responsable).\nOperación INV-20260822-006. Motivo: restauración posterior a prueba controlada. Responsable: Jandry Moreira (responsable).\nOperación INV-20260823-001. Motivo: prueba controlada inventario pagina web. Responsable: Jandry Moreira (responsable).\nOperación INV-20260823-002. Motivo: restauración posterior a prueba controlada. Responsable: Jandry Moreira (responsable).\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260823182450788. Modo de asignación: automatica. Evento: TRZ-20260823185549454-0B7299FE. Fecha: 23/08/2026 18:55:49 (hora de Ecuador)",
       "condicion_unidad": "operativo",
-      "prestamos_activos": [],
+      "prestamos_activos": [
+        {
+          "id_prestamo": "adb181c1-7cb7-48e9-baf1-53cec0910f15",
+          "estado_detalle": "entregado",
+          "codigo_prestamo": "PRE-20260823182450788",
+          "estado_prestamo": "entregado"
+        }
+      ],
       "codigo_normalizado": "arduino",
-      "disponible_prestamo": true,
-      "ultima_actualizacion": "2026-08-23T08:52:05.660761",
-      "codigo_prestamo_activo": null,
-      "estado_prestamo_activo": null,
-      "estado_detalle_prestamo": null,
-      "cantidad_prestamos_activos": 0
+      "disponible_prestamo": false,
+      "ultima_actualizacion": "2026-08-23T23:55:49.538907",
+      "codigo_prestamo_activo": "PRE-20260823182450788",
+      "estado_prestamo_activo": "entregado",
+      "estado_detalle_prestamo": "entregado",
+      "cantidad_prestamos_activos": 1
     }
   ],
   "control": {
