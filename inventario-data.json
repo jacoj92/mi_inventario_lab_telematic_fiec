@@ -6,14 +6,14 @@
   "laboratorio": "Laboratorio de Sistemas Telemáticos",
   "fuente_oficial": "PostgreSQL",
   "generado_por": "n8n",
-  "generado_en": "2026-08-24T00:46:20.639Z",
-  "ultima_actualizacion_inventario": "2026-08-24T00:46:20.546Z",
+  "generado_en": "2026-08-24T20:13:50.382Z",
+  "ultima_actualizacion_inventario": "2026-08-24T20:13:50.276Z",
   "alcance": "Inventario administrado por el proyecto del Laboratorio de Sistemas Telemáticos",
   "advertencia": "Dataset consultivo. Las operaciones transaccionales se realizan exclusivamente sobre PostgreSQL mediante los workflows autorizados.",
   "resumen": {
-    "total_registrado": 73,
-    "unidades_en_servicio": 71,
-    "disponibles": 53,
+    "total_registrado": 74,
+    "unidades_en_servicio": 72,
+    "disponibles": 54,
     "prestados": 18,
     "reservados": 0,
     "mantenimiento": 0,
@@ -21,13 +21,13 @@
     "bajas": 2,
     "otros_no_disponibles": 0,
     "fuera_servicio": 2,
-    "porcentaje_disponibilidad": 74.65,
-    "porcentaje_prestado": 25.35,
+    "porcentaje_disponibilidad": 75,
+    "porcentaje_prestado": 25,
     "tipos_bien": 11,
     "categorias": 5
   },
   "distribucion": {
-    "disponibles": 53,
+    "disponibles": 54,
     "prestados": 18,
     "reservados": 0,
     "mantenimiento": 0,
@@ -81,18 +81,18 @@
     },
     {
       "categoria": "Microcontroladores",
-      "total_registrado": 30,
-      "unidades_en_servicio": 28,
-      "disponibles": 12,
+      "total_registrado": 31,
+      "unidades_en_servicio": 29,
+      "disponibles": 13,
       "prestados": 16,
       "reservados": 0,
       "mantenimiento": 0,
       "perdidos": 0,
       "bajas": 2,
       "otros_no_disponibles": 0,
-      "porcentaje_disponibilidad": 42.86,
-      "porcentaje_prestado": 57.14,
-      "ultima_actualizacion": "2026-08-24T00:46:20.546Z"
+      "porcentaje_disponibilidad": 44.83,
+      "porcentaje_prestado": 55.17,
+      "ultima_actualizacion": "2026-08-24T20:13:50.276Z"
     },
     {
       "categoria": "Sensores",
@@ -189,8 +189,8 @@
     {
       "categoria": "Microcontroladores",
       "bien": "Arduino UNO",
-      "total_registrado": 7,
-      "disponibles": 5,
+      "total_registrado": 8,
+      "disponibles": 6,
       "prestados": 0,
       "reservados": 0,
       "mantenimiento": 0,
@@ -199,7 +199,7 @@
       "otros_no_disponibles": 0,
       "porcentaje_disponibilidad": 100,
       "porcentaje_prestado": 0,
-      "ultima_actualizacion": "2026-08-24T00:46:20.546Z"
+      "ultima_actualizacion": "2026-08-24T20:13:50.276Z"
     },
     {
       "categoria": "Microcontroladores",
@@ -303,16 +303,16 @@
       "bien": "Arduino UNO",
       "categoria": "Microcontroladores",
       "mensaje": "Unidades fuera de servicio: Arduino UNO registra 2 baja(s) y 0 pérdida(s).",
-      "total_registrado": 7,
-      "unidades_en_servicio": 5,
-      "disponibles": 5,
+      "total_registrado": 8,
+      "unidades_en_servicio": 6,
+      "disponibles": 6,
       "prestados": 0,
       "mantenimiento": 0,
       "perdidos": 0,
       "bajas": 2,
       "porcentaje_disponibilidad": 100,
       "color_dashboard": "amarillo",
-      "ultima_actualizacion": "2026-08-24T00:46:20.546Z"
+      "ultima_actualizacion": "2026-08-24T20:13:50.276Z"
     }
   ],
   "detalle_unidades": [
@@ -2193,13 +2193,37 @@
       "estado_prestamo_activo": null,
       "estado_detalle_prestamo": null,
       "cantidad_prestamos_activos": 0
+    },
+    {
+      "bien": "Arduino UNO",
+      "id_bien": "b55bdc1a-5769-47cf-a119-4e7fd9f89b87",
+      "categoria": "Microcontroladores",
+      "id_unidad": "d9510396-e20c-4c8d-9acc-f844f6ab9b0a",
+      "ubicacion": "ESPOL - Laboratorio de Sistemas Telemáticos",
+      "codigo_bien": "B-ARDUINO",
+      "laboratorio": "Laboratorio de Sistemas Telemáticos",
+      "id_categoria": 1,
+      "numero_serie": null,
+      "codigo_activo": "ARD-008",
+      "estado_unidad": "disponible",
+      "fecha_ingreso": "2026-08-24",
+      "observaciones": "Ampliación mediante operación INV-20260824-006",
+      "condicion_unidad": "operativo",
+      "prestamos_activos": [],
+      "codigo_normalizado": "arduino",
+      "disponible_prestamo": true,
+      "ultima_actualizacion": "2026-08-24T20:13:50.276373",
+      "codigo_prestamo_activo": null,
+      "estado_prestamo_activo": null,
+      "estado_detalle_prestamo": null,
+      "cantidad_prestamos_activos": 0
     }
   ],
   "control": {
     "filas_alertas": 2,
     "filas_resumen_bienes": 11,
     "filas_dashboard_global": 1,
-    "filas_detalle_unidades": 73,
+    "filas_detalle_unidades": 74,
     "filas_resumen_categorias": 5
   }
 }
