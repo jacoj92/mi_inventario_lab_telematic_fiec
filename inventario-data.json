@@ -6,8 +6,8 @@
   "laboratorio": "Laboratorio de Sistemas Telemáticos",
   "fuente_oficial": "PostgreSQL",
   "generado_por": "n8n",
-  "generado_en": "2026-08-30T02:18:38.141Z",
-  "ultima_actualizacion_inventario": "2026-08-30T02:18:38.037Z",
+  "generado_en": "2026-08-30T03:01:27.275Z",
+  "ultima_actualizacion_inventario": "2026-08-30T03:01:27.170Z",
   "alcance": "Inventario administrado por el proyecto del Laboratorio de Sistemas Telemáticos",
   "advertencia": "Dataset consultivo. Las operaciones transaccionales se realizan exclusivamente sobre PostgreSQL mediante los workflows autorizados.",
   "resumen": {
@@ -92,7 +92,7 @@
       "otros_no_disponibles": 0,
       "porcentaje_disponibilidad": 37.93,
       "porcentaje_prestado": 62.07,
-      "ultima_actualizacion": "2026-08-30T02:18:38.037Z"
+      "ultima_actualizacion": "2026-08-30T03:01:27.170Z"
     },
     {
       "categoria": "Sensores",
@@ -214,7 +214,7 @@
       "otros_no_disponibles": 0,
       "porcentaje_disponibilidad": 5.26,
       "porcentaje_prestado": 94.74,
-      "ultima_actualizacion": "2026-08-30T02:18:38.037Z"
+      "ultima_actualizacion": "2026-08-30T03:01:27.170Z"
     },
     {
       "categoria": "Microcontroladores",
@@ -294,7 +294,7 @@
       "bajas": 0,
       "porcentaje_disponibilidad": 5.26,
       "color_dashboard": "naranja",
-      "ultima_actualizacion": "2026-08-30T02:18:38.037Z"
+      "ultima_actualizacion": "2026-08-30T03:01:27.170Z"
     },
     {
       "orden_prioridad": 5,
@@ -1866,37 +1866,6 @@
       "cantidad_prestamos_activos": 1
     },
     {
-      "bien": "ESP32",
-      "id_bien": "bd42ddbc-d443-4453-b1fc-8411bf55621b",
-      "categoria": "Microcontroladores",
-      "id_unidad": "c461947e-3c53-40de-86ce-136592863256",
-      "ubicacion": "ESPOL - Laboratorio de Sistemas Telemáticos",
-      "codigo_bien": "B-ESP32",
-      "laboratorio": "Laboratorio de Sistemas Telemáticos",
-      "id_categoria": 1,
-      "numero_serie": null,
-      "codigo_activo": "ESP32-018",
-      "estado_unidad": "prestado",
-      "fecha_ingreso": "2026-08-04",
-      "observaciones": "Ampliación mediante operación INV-20260804-001\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260819203128716. Evento: TRZ-20260819203744014-08858AA7. Fecha: 19/08/2026 20:37:44 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260819203128716. Código devolución: DEV-20260819204125264-F2CECE59. Evento: TRZ-20260819204232959-B8D6EE23. Fecha: 19/08/2026 20:42:33 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260829204652684. Modo de asignación: automatica. Evento: TRZ-20260829211837915-2214FD60. Fecha: 29/08/2026 21:18:38 (hora de Ecuador)",
-      "condicion_unidad": "operativo",
-      "prestamos_activos": [
-        {
-          "id_prestamo": "aa3c357c-6125-4597-abc6-28fc51e1a8ff",
-          "estado_detalle": "entregado",
-          "codigo_prestamo": "PRE-20260829204652684",
-          "estado_prestamo": "entregado"
-        }
-      ],
-      "codigo_normalizado": "esp32",
-      "disponible_prestamo": false,
-      "ultima_actualizacion": "2026-08-30T02:18:38.037156",
-      "codigo_prestamo_activo": "PRE-20260829204652684",
-      "estado_prestamo_activo": "entregado",
-      "estado_detalle_prestamo": "entregado",
-      "cantidad_prestamos_activos": 1
-    },
-    {
       "bien": "Sensor DHT22",
       "id_bien": "9e542c2c-8fe1-4aba-9a1b-2b95301ed867",
       "categoria": "Sensores",
@@ -1943,6 +1912,37 @@
       "estado_prestamo_activo": null,
       "estado_detalle_prestamo": null,
       "cantidad_prestamos_activos": 0
+    },
+    {
+      "bien": "ESP32",
+      "id_bien": "bd42ddbc-d443-4453-b1fc-8411bf55621b",
+      "categoria": "Microcontroladores",
+      "id_unidad": "c461947e-3c53-40de-86ce-136592863256",
+      "ubicacion": "ESPOL - Laboratorio de Sistemas Telemáticos",
+      "codigo_bien": "B-ESP32",
+      "laboratorio": "Laboratorio de Sistemas Telemáticos",
+      "id_categoria": 1,
+      "numero_serie": null,
+      "codigo_activo": "ESP32-018",
+      "estado_unidad": "prestado",
+      "fecha_ingreso": "2026-08-04",
+      "observaciones": "Ampliación mediante operación INV-20260804-001\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260819203128716. Evento: TRZ-20260819203744014-08858AA7. Fecha: 19/08/2026 20:37:44 (hora de Ecuador)\nUnidad liberada por devolución aceptada. Código préstamo: PRE-20260819203128716. Código devolución: DEV-20260819204125264-F2CECE59. Evento: TRZ-20260819204232959-B8D6EE23. Fecha: 19/08/2026 20:42:33 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260829204652684. Modo de asignación: automatica. Evento: TRZ-20260829211837915-2214FD60. Fecha: 29/08/2026 21:18:38 (hora de Ecuador)\nUnidad marcada como prestada por entrega de préstamo. Código préstamo: PRE-20260829215721376. Modo de asignación: automatica. Evento: TRZ-20260829220127088-002AC65E. Fecha: 29/08/2026 22:01:27 (hora de Ecuador)",
+      "condicion_unidad": "operativo",
+      "prestamos_activos": [
+        {
+          "id_prestamo": "a2ae6173-6c71-46b1-89b4-9d9870ecff21",
+          "estado_detalle": "entregado",
+          "codigo_prestamo": "PRE-20260829215721376",
+          "estado_prestamo": "entregado"
+        }
+      ],
+      "codigo_normalizado": "esp32",
+      "disponible_prestamo": false,
+      "ultima_actualizacion": "2026-08-30T03:01:27.17028",
+      "codigo_prestamo_activo": "PRE-20260829215721376",
+      "estado_prestamo_activo": "entregado",
+      "estado_detalle_prestamo": "entregado",
+      "cantidad_prestamos_activos": 1
     },
     {
       "bien": "Arduino UNO",
